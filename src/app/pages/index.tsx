@@ -1,8 +1,6 @@
-"use client";
-
-import React, { useRef } from "react";
+import React from "react";
 import { Column } from "react-table";
-import StudentTable from "./components/StudentTable";
+import StudentTable from "../components/StudentTable";
 
 interface Student {
   id: number;
