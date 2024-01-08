@@ -1,0 +1,123 @@
+ul {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  gap: 3rem;
+}
+li {
+  font-size: 20px;
+}
+.image-container {
+  margin-left: 50%;
+}
+.image-select {
+  border-radius: 50%; /* Bo tròn hình ảnh */
+  border: 2px solid #482d1a; /* Viền màu nâu */
+}
+.image-left {
+  margin-left: 70%;
+}
+.text-container {
+  background-color: #482d1a;
+  font-style: normal;
+  border: 2px solid #482d1a; /* Viền màu nâu */
+}
+.star-icon {
+  display: flex;
+}
+.star {
+  color: #efba8c; /* Màu sắc của icon */
+  margin-right: 5px; /* Khoảng cách giữa các icon */
+  height: 100px; /* Kích thước của icon */
+  width: 50px; /* Kích thước của icon */
+}
+.text-left {
+  margin-top: 2.2%;
+  font-size: 20px;
+}
+h1 {
+  color: #ffe5ce;
+  font-size: 40px;
+}
+.text-left {
+  color: #ffe5ce;
+}
+.text-description {
+  display: flex;
+}
+.dot {
+  margin-top: 0.5%;
+  color: #ffe5ce;
+  height: 30px; /* Kích thước của icon */
+  width: 40px; /* Kích thước của icon */
+}
+.text-dot {
+  /* Viền màu nâu */
+  color: #ffe5ce;
+  margin-top: 1%;
+}
+.text-address {
+  border: 2px solid #ffe5ce; /* Viền màu nâu */
+  border-radius: 10px; /* Bo tròn hình ảnh */
+
+  display: flex;
+}
+.text-phone {
+  border: 2px solid #ffe5ce; /* Viền màu nâu */
+  border-radius: 10px; /* Bo tròn hình ảnh */
+  margin-left: 2%;
+  display: flex;
+}
+.product-row {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-item {
+  margin-right: 20px;
+}
+
+.product-image {
+  border-radius: 10px;
+  border: 2px solid #ffe5ce;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.product-name {
+  font-size: 16px;
+  color: #ffe5ce;
+
+  margin-bottom: 5px;
+}
+
+.product-price {
+  color: #ffe5ce;
+  font-weight: bold;
+}
+.product-actions {
+  margin-top: 3%;
+  margin-left: 40%;
+  height: 30px; /* Kích thước của icon */
+  width: 40px;
+  color: #f0bb8d; /* Kích thước của icon */
+}
+.product-detail {
+  display: flex;
+}
+.menu-fa {
+  height: 52px; /* Kích thước của icon */
+  width: 52px;
+}
+.select-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.select-container select:not(:last-child) {
+  margin-right: 0.2rem;
+}
